@@ -12,7 +12,7 @@ class AbstractComputeResource {
     getSampleMessage() {
         throw new Error('Not implemented');
     }
-}
+}   
 
 
 /** 
