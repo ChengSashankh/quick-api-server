@@ -1,4 +1,20 @@
 # API Server Template
 
-Ever needed to set up your own API Server, but put it off because.. well its some work? Use this boilerplate API Server to speed up your proof of concept with the simplest server you can deploy to a Linux box with just `npm i && npm run start`
+Ever needed to set up your own API Server, but put it off because even with node.js it takes some work? Use this boilerplate API Server to speed up your proof of concept with a simple server.
 
+## Scope - What this is and isn't
+
+This is a template meant to speed up a proof-of-concept or a hack. This isn't meant to be secure / compliant with production standards ( coming soon )
+
+## Set up
+
+- Clone this repo, cd into the repository and run `npm i`
+- [ Optional ] If required change the port number in config/settings.json
+- [ Optional ] If you intend to set up some header validation, add them into auth/validate.js
+- `npm start` will start the server on the configured port
+- Look for the postman collection to get a sample request
+
+## Developing
+
+- To disable router level header validation, add `"validate": false` to config/settings.json
+- To add an endpoint, use the routers in routes/user.js and routes/admin.js to add your endpoints.
