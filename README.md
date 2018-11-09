@@ -16,5 +16,5 @@ This is a template meant to speed up a proof-of-concept or a hack. This isn't me
 
 ## Developing
 
-- To disable router level header validation, add `"validate": false` to config/settings.json
+- To enable router level header validation, add `"validate": true` to config/settings.json
 - To add an endpoint, use the routers in routes/user.js and routes/admin.js to add your endpoints.
