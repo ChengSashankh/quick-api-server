@@ -18,3 +18,12 @@ This is a template meant to speed up a proof-of-concept or a hack. This isn't me
 
 - To enable router level header validation, add `"validate": true` to config/settings.json
 - To add an endpoint, use the routers in routes/user.js and routes/admin.js to add your endpoints.
+- Add your computate / processing code to compute/
+
+## Example use cases
+
+This repository was
+
+- used to develop [Find and Seek](https://devpost.com/software/find-and-seek-n0ejt9) for a hackathon. API server exposed through public IP ( running on EC2 ) for a demo.
+
+- used for [clip](https://github.com/ChengSashankh/clip), a personal project requiring a centralized API server to handle multi-platform collaborative clipboard. 
