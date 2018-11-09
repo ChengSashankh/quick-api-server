@@ -14,7 +14,8 @@
   "author": "Sashankh Chengavalli Kumar",
   "license": "ISC",
   "dependencies": {
-    "express": "",
-    "body-parser": ""
+    "body-parser": "",
+    "cors": "^2.8.5",
+    "express": ""
   }
 }
